@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beacon Privacy Policy</title>
+  <meta name="description" content="Privacy policy for Beacon, the internal messaging app of Bellatrix Aerospace.">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #1b2430;
+      --muted: #5b6676;
+      --accent: #003a71;
+      --rule: #dde3ea;
+      --note-bg: #fff6d6;
+      --note-fg: #5c4600;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #11161d;
+        --fg: #e4e9f0;
+        --muted: #98a3b3;
+        --accent: #6db3ff;
+        --rule: #2a3340;
+        --note-bg: #3a3112;
+        --note-fg: #f3dd8a;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--fg);
+      font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+
+    main {
+      max-width: 46rem;
+      margin: 0 auto;
+      padding: 2.5rem 1rem 4rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      line-height: 1.2;
+      margin: 0 0 .25rem;
+      color: var(--accent);
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      margin: 2.2rem 0 .5rem;
+      padding-top: 1.2rem;
+      border-top: 1px solid var(--rule);
+    }
+
+    p,
+    li {
+      margin: .5rem 0;
+    }
+
+    ul {
+      padding-left: 1.3rem;
+    }
+
+    a {
+      color: var(--accent);
+    }
+
+    .meta {
+      color: var(--muted);
+      margin: 0 0 1.5rem;
+    }
+
+    .note {
+      background: var(--note-bg);
+      color: var(--note-fg);
+      padding: .75rem 1rem;
+      border-radius: 6px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      font-size: .95rem;
+    }
+
+    th,
+    td {
+      text-align: left;
+      vertical-align: top;
+      padding: .55rem .6rem;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    th {
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    @media (max-width: 36rem) {
+
+      table,
+      thead,
+      tbody,
+      tr,
+      th,
+      td {
+        display: block;
+      }
+
+      thead {
+        display: none;
+      }
+
+      tr {
+        border-bottom: 1px solid var(--rule);
+        padding: .5rem 0;
+      }
+
+      td {
+        border: 0;
+        padding: .15rem 0;
+      }
+
+      td:first-child {
+        font-weight: 600;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>Beacon Privacy Policy</h1>
+    <p class="meta">Effective 8 October 2026 &middot; Operated by Bellatrix Aerospace</p>
+
+    <p>Beacon is a private messaging app for the employees of Bellatrix Aerospace
+      ("we", "us", "the company"). It is not a public service and is not offered to
+      consumers. Accounts are created and managed by the company, and you cannot
+      sign up on your own. This policy explains what information the Beacon app and
+      its server handle, why, and who can see it.</p>
+
+    <h2>1. Who this applies to</h2>
+    <p>This policy applies to employees and other people the company has
+      authorised to use Beacon ("you"). Beacon is not directed at children and is
+      not intended for anyone under 18.</p>
+
+    <h2>2. Information we handle</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Information</th>
+          <th>Why</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Account details: name, work email address, profile picture, role</td>
+          <td>To identify you to colleagues and let you sign in.</td>
+        </tr>
+        <tr>
+          <td>Messages and content you post: channel and direct messages,
+            reactions, polls, to-do lists, and any files or images you attach where
+            your organisation allows it</td>
+          <td>This is the core function of the app.</td>
+        </tr>
+        <tr>
+          <td>Device push token</td>
+          <td>To deliver notifications to your phone (see section 4).</td>
+        </tr>
+        <tr>
+          <td>Technical and security records: sign-in times, IP address, device
+            and app version, connection logs</td>
+          <td>To run, secure and troubleshoot the service and to prevent
+            unauthorised access.</td>
+        </tr>
+        <tr>
+          <td>File transfer records: who sent or received a file, the file name,
+            its size and the time</td>
+          <td>Company security and audit purposes.</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Beacon does <strong>not</strong> collect your location, contacts, or
+      advertising identifiers, and does not include advertising or third-party
+      analytics or crash-reporting tools.</p>
+
+    <h2>3. How we use it</h2>
+    <ul>
+      <li>To provide internal messaging and notifications.</li>
+      <li>To keep the service secure, including checking that the app is a genuine
+        copy running on an uncompromised device.</li>
+      <li>To meet the company's security, audit, legal and compliance obligations.</li>
+    </ul>
+    <p>We do not sell your information and we do not use it for advertising.</p>
+
+    <h2>4. Who we share it with</h2>
+    <p>Your messages and account data are stored on servers controlled by the
+      company. We do not share them with outside parties, with these exceptions:</p>
+    <ul>
+      <li><strong>Push notification providers.</strong> To alert your phone, a
+        notification is delivered through Google Firebase Cloud Messaging (Android)
+        or Apple Push Notification service (iOS). They receive your device token and
+        the notification payload needed to deliver it. Their handling is covered by
+        <a href="https://policies.google.com/privacy">Google's privacy policy</a>
+        and <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.
+      </li>
+      <li><strong>Hosting providers</strong> that supply the infrastructure the
+        server runs on, acting only on our instructions.</li>
+      <li><strong>Authorities</strong>, if the law requires it.</li>
+    </ul>
+    <p>Within the company, access to Beacon data is limited to authorised
+      administrators and, where necessary, security or compliance staff.</p>
+
+    <h2>5. Security</h2>
+    <p>All traffic between the app and the server is encrypted in transit (TLS).
+      Access is restricted to authorised company clients. The app stores its sign-in
+      credentials in the secure storage provided by your device, and can lock itself
+      behind your device's biometrics or screen lock. Messages are not end-to-end
+      encrypted: company administrators can technically access stored content, and
+      this access is controlled by internal policy. No system is perfectly secure,
+      but we work to protect your information.</p>
+
+    <h2>6. How long we keep it</h2>
+    <p>Messages and account data are kept while your account is active and for as
+      long as the company's retention policy requires. Server backups are kept for a
+      limited period (currently 14 days) and then deleted. When your employment or
+      authorisation ends, your account is deactivated; content you posted may be
+      retained as part of the company's records.</p>
+
+    <h2>7. Your choices and rights</h2>
+    <p>Because Beacon is operated by your employer, requests go through the
+      company. You may ask to access, correct or delete personal information, subject
+      to company records requirements and applicable law. You can switch off
+      notifications in your phone's settings, and you can uninstall the app at any
+      time. Account and data deletion is performed by a Beacon administrator.</p>
+
+    <h2>8. Changes to this policy</h2>
+    <p>We may update this policy as the app changes. The effective date at the top
+      shows when it was last revised, and material changes will be announced inside
+      the app or by internal communication.</p>
+
+    <h2>9. Contact</h2>
+    <p>Questions or requests about this policy or your data:<br>
+      Bellatrix Aerospace &mdash; Beacon administrators<br>
+      Email: beacon@bellatrix.aero</p>
+  </main>
+</body>
+
+</html>
